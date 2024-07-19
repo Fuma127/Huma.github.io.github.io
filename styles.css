@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333; /* 背景色を設定 */
+    color: white; /* テキストの色を設定 */
+    padding: 1rem; /* 内側の余白を設定 */
+    text-align: center; /* テキストを中央揃えに設定 */
+    font-family: 'Arial', sans-serif; /* フォントを設定 */
+    font-size: 1rem; /* フォントサイズを設定（必要に応じて調整） */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    margin-right: 0.5rem;
+}
+
+#userPage {
+    text-align: center;
+}

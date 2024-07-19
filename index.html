@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プロフィールサイト</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>MikawaJihad</h1>
+    </header>
+
+    <main>
+        <section id="login">
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="userId">UserName:</label>
+                    <input type="text" id="userId" name="userId" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <input type="submit" value="Login">
+            </form>
+        </section>
+
+        <section id="userPage" style="display:none;">
+            <h2>ユーザー情報</h2>
+            <p id="userName"></p>
+            <p id="userQuote"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p> </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
